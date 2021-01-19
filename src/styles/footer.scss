@@ -1,0 +1,26 @@
+
+.footer {
+  min-width: $minWidth;
+  width: 100%;
+  height: $footerHeight;
+  background: $darkBg;
+  .footer-wrap {
+    margin: 0 auto;
+    width: $minWidth;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgba($color: #ffffff, $alpha: 0.5);
+    font-size: 12px;
+    .footer-link {
+      padding-left: 45px;
+      .com-link {
+        padding: 0 20px;
+      }
+      .com-link + .com-link {
+        border-left: 1px solid white;
+      }
+    }
+  }
+}
